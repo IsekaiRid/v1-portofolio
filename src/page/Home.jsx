@@ -6,10 +6,12 @@ import Product from "../components/Product";
 import Tim from "../components/Tim";
 import Footer from '../components/Footer';
 
+
+
 const Home = () => {
     return (
         <>
-            <Header />
+            <Header/>
             <Hero />
             <About />
             <Product />

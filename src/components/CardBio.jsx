@@ -14,7 +14,8 @@ const CardBio = () => {
             </div>
             
             <div className='grid md:grid-cols-2 grid-rows-1'>
-                <div className="mx-auto mt-4 w-96 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+                <div className="mx-auto mt-4 md:w-96 w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <div className="flex flex-col items-center pb-10">
                         <img className="w-24 h-24 mb-3 rounded-full shadow-lg mt-10" src="https://i.pinimg.com/564x/4f/69/0b/4f690b4d007bf12b84a8d2b5fcf4d8cc.jpg" alt="Bonnie image" />
                         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">R.K</h5>
@@ -26,7 +27,7 @@ const CardBio = () => {
                     </div>
                 </div>
 
-                <div className="mx-auto mt-4 w-96 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="mx-auto mt-4 md:w-96 w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <div className="flex flex-col items-center pb-10">
                         <img className="w-24 h-24 mb-3 rounded-full shadow-lg mt-10" src="https://i.pinimg.com/564x/4f/69/0b/4f690b4d007bf12b84a8d2b5fcf4d8cc.jpg" alt="Bonnie image" />
                         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">R.D</h5>

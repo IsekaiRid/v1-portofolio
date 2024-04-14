@@ -22,7 +22,7 @@ const Tim = () => {
                     </div>
                     <div className="grid md:grid-cols-3 grid-rows-1">
                         {prestasi.slice(0, 4).map((item) => (
-                            <div key={item.id} className="mx-auto mt-4 w-96 transform overflow-hidden rounded-lg bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+                            <div key={item.id} className="mx-auto md:mt-4 mt-1 mb-3 md:w-96 w-[350px] transform overflow-hidden rounded-lg bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
                                 <img loading="lazy" className="h-48 w-full object-contain mt-10" src={item.linkGambar} alt="setifikat" />
                                 <div className="p-4">
                                 </div>

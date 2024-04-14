@@ -34,9 +34,9 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="grid grid-cols-2 gap-4 mt-8">
-                            <img data-aos="fade-right" loading="lazy" className=" w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
-                            <img data-aos="fade-left" loading="lazy" className=" mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
+                        <div className="grid grid-cols-2 gap-4 mt-8 relative "  data-aos="fade-down">
+                            <img loading="lazy" className="md:w-full w-[160px] rounded-lg object-cover block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
+                            <img loading="lazy" className=" mt-4 md:w-full w-[160px] lg:mt-10 rounded-lg object-cover block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
                         </div>
                     </div>
                 </section>

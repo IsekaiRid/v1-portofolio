@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const Header = () => {
+const Header = (props) => {
     const [openNav, setOpenNav] = React.useState(false);
 
     window.onscroll = function () {
@@ -31,14 +31,14 @@ const Header = () => {
                     <ul className=' hidden md:flex items-center text-black font-bold'>
                         <li className='mx-4'><a href='#about'>About</a></li>
                         <li className='mx-4'><a href='#projack'>Project</a></li>
-                        <Link to='/bio'><li className='mx-4'><a href='#'>Tim</a></li></Link>
+                        <Link to='/bio'><li className='mx-4'>Tim</li></Link>
                     </ul>
                 </nav>
-                <div className={`siderbar md:hidden fixed right-0 h-auto pb-10 z-40 bg-slate-900 w-40 transform transition ease-in-out duration-300 ${openNav ? 'translate-x-0' : 'translate-x-full'}`}>
+                <div className={`siderbar md:hidden fixed right-0 h-auto pb-10 z-40 bg-slate-900 w-full transform transition ease-in-out duration-300 ${openNav ? 'translate-x-0' : 'translate-x-full'}`}>
                     <ul className='list-none text-white'>
-                        <li className='mx-2'><a href='#about'>About</a></li>
-                        <li className='mx-2'><a href='#'>Product</a></li>
-                        <Link to='/bio'><li className='mx-4'><a href='#'>Tim</a></li></Link>
+                        <li className='mx-4 my-2'><a href='#about'>About</a></li>
+                        <li className='mx-4 my-2'><a href='#'>Product</a></li>
+                        <Link to='/bio'><li className='mx-4 my-2'>Tim</li></Link>
                     </ul>
                 </div>
             </div>
